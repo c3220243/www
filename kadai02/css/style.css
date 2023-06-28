@@ -20,7 +20,7 @@ body{
 }
 .header_mainvisual img{
     width: 100%;
-    border: 10px;
+    border: 10px solid #ddd;
     box-sizing: border-box;
 }
 main{
