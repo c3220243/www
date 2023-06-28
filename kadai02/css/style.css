@@ -1,11 +1,78 @@
 body{
     margin: 0;
 }
-.heaeder_logo{
+.header_logo{
     text-align: center;
 }
-.heaeder_logo{
+.header_navlist{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    border-top: 1px;
+    border-bottom: 1px;
+}
+.header_navlist li{
+    margin: 16px 28px;
+    list-style: none;
+}
+.header_mainvisual{
+    margin: 40px;
+}
+.header_mainvisual img{
+    width: 100%;
+    border: 10px;
+    box-sizing: border-box;
+}
+main{
+    margin: 0 40px;
+}
+.main_content h2{
+    font-family: serif;
+    font-weight: normal;
+    text-align: center;
+}
+.main_goodpoints{
+    display: flex;
+    justify-content: space-between;
+}
+.main_goodpoints section{
+    width: 31%;
+}
+.main_goodpoints section img{
+    width: 100%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 40px;
+}
+.news{
+    width: 65.5%;
+}
+.news_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.news_title h2{
+    margin: 0;
+}
+.news_list{
+    list-style: none;
+    padding: 0;
+    border-top: 1px;
+}
+.news_list li{
+    border-bottom: 1px dotted #000;
+    padding: 12px 0;
+}
+.news_bate{
+    font-weight: bold;
+    margin-right: 30px;
+}
+.banner{
+    width: 31%;
+}
+.banner img{
+    width: 100%;
 }
