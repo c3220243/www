@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+.heaeder_logo{
+    text-align: center;
+}
+.heaeder_logo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
